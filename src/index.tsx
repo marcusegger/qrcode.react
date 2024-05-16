@@ -468,6 +468,8 @@ const QRCodeSVG = React.forwardRef<SVGSVGElement, QRPropsSVG>(
 
     return (
       <svg
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
         height={size}
         width={size}
         viewBox={`0 0 ${numCells} ${numCells}`}
